@@ -1,1 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
+<svg
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+viewBox="0 0 1600 620"
+width="1600"
+height="620">
+
+<title>Aryan Chavan Developer Banner</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+text{
+font-family:'JetBrains Mono',monospace;
+}
+
+.bg{
+fill:#07090f;
+}
+
+.small{
+font-size:17px;
+fill:#90caf9;
+letter-spacing:2px;
+}
+
+.name{
+font-size:64px;
+font-weight:700;
+fill:white;
+}
+
+.role{
+font-size:28px;
+fill:#b9c7ff;
+}
+
+.cardTitle{
+font-size:20px;
+fill:#77bdfd;
+font-weight:700;
+}
+
+.cardText{
+font-size:18px;
+fill:#d9e4ff;
+}
+
+.glowText{
+filter:url(#textGlow);
+}
+
+.cursor{
+animation:blink 1s infinite;
+}
+
+.grid{
+animation:gridMove 18s linear infinite;
+}
+
+.scan{
+animation:scanMove 5s linear infinite;
+}
+
+.p1{
+animation:float1 7s ease-in-out infinite;
+}
+
+.p2{
+animation:float2 9s ease-in-out infinite;
+}
+
+.p3{
+animation:float3 11s ease-in-out infinite;
+}
+
+.p4{
+animation:float4 8s ease-in-out infinite;
+}
+
+.pulse{
+animation:pulse 3s ease-in-out infinite;
+}
+
+.borderGlow{
+animation:borderGlow 5s ease infinite;
+}
+
+@keyframes blink{
+
+0%,50%{opacity:1;}
+
+51%,100%{opacity:0;}
+
+}
+
+@keyframes pulse{
+
+0%{opacity:.45;}
+
+50%{opacity:1;}
+
+100%{opacity:.45;}
+
+}
+
+@keyframes gridMove{
+
+0%{
+transform:translateY(0px);
+}
+
+100%{
+transform:translateY(60px);
+}
+
+}
+
+@keyframes scanMove{
+
+0%{
+transform:translateY(-620px);
+}
+
+100%{
+transform:translateY(620px);
+}
+
+}
+
+@keyframes float1{
+
+0%{transform:translate(0,0);}
+50%{transform:translate(15px,-18px);}
+100%{transform:translate(0,0);}
+
+}
+
+@keyframes float2{
+
+0%{transform:translate(0,0);}
+50%{transform:translate(-20px,16px);}
+100%{transform:translate(0,0);}
+
+}
+
+@keyframes float3{
+
+0%{transform:translate(0,0);}
+50%{transform:translate(8px,22px);}
+100%{transform:translate(0,0);}
+
+}
+
+@keyframes float4{
+
+0%{transform:translate(0,0);}
+50%{transform:translate(-12px,-20px);}
+100%{transform:translate(0,0);}
+
+}
+
+@keyframes borderGlow{
+
+0%{
+stroke:#5b8cff;
+}
+
+50%{
+stroke:#8b5cf6;
+}
+
+100%{
+stroke:#5b8cff;
+}
+
+}
+
+</style>
+
+<defs>
+
+<linearGradient id="bgGradient"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
+
+<stop offset="0%" stop-color="#05070d"/>
+
+<stop offset="45%" stop-color="#0b1020"/>
+
+<stop offset="100%" stop-color="#090713"/>
+
+</linearGradient>
+
+<linearGradient id="primaryGlow"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="0%">
+
+<stop offset="0%" stop-color="#4f8fff"/>
+
+<stop offset="50%" stop-color="#7f5cff"/>
+
+<stop offset="100%" stop-color="#53d7ff"/>
+
+</linearGradient>
+
+<linearGradient id="glassStroke"
+x1="0"
+y1="0"
+x2="1"
+y2="1">
+
+<stop offset="0%" stop-color="#6aa9ff"/>
+
+<stop offset="100%" stop-color="#885dff"/>
+
+</linearGradient>
+
+<filter id="blurLarge">
+
+<feGaussianBlur stdDeviation="90"/>
+
+</filter>
+
+<filter id="blurMedium">
+
+<feGaussianBlur stdDeviation="45"/>
+
+</filter>
+
+<filter id="textGlow">
+
+<feGaussianBlur stdDeviation="3" result="blur"/>
+
+<feMerge>
+
+<feMergeNode in="blur"/>
+
+<feMergeNode in="SourceGraphic"/>
+
+</feMerge>
+
+</filter>
+
+<pattern
+id="grid"
+width="45"
+height="45"
+patternUnits="userSpaceOnUse">
+
+<path
+d="M45 0H0V45"
+fill="none"
+stroke="#3f4d75"
+stroke-opacity=".18"
+stroke-width="1"/>
+
+</pattern>
+
+<radialGradient id="particle">
+
+<stop offset="0%" stop-color="#ffffff"/>
+
+<stop offset="100%" stop-color="#62b8ff" stop-opacity="0"/>
+
+</radialGradient>
+
+</defs>
+
+<rect
+width="1600"
+height="620"
+fill="url(#bgGradient)"/>
+
+<circle
+cx="330"
+cy="150"
+r="180"
+fill="#4f8fff"
+opacity=".14"
+filter="url(#blurLarge)"/>
+
+<circle
+cx="1270"
+cy="460"
+r="210"
+fill="#8b5cf6"
+opacity=".18"
+filter="url(#blurLarge)"/>
+
+<circle
+cx="1100"
+cy="120"
+r="120"
+fill="#37b8ff"
+opacity=".12"
+filter="url(#blurMedium)"/>
+
+<g class="grid">
+
+<rect
+width="1600"
+height="620"
+fill="url(#grid)"/>
+
+</g>
+
+<g opacity=".25">
+
+<line
+x1="0"
+y1="100"
+x2="1600"
+y2="100"
+stroke="#5e8cff"/>
+
+<line
+x1="0"
+y1="520"
+x2="1600"
+y2="520"
+stroke="#5e8cff"/>
+
+</g>
+
+<!-- Continue with Part 2 -->
