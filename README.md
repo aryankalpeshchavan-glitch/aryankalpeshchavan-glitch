@@ -1,16 +1,59 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**aryankalpeshchavan-glitch/aryankalpeshchavan-glitch** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Aryan Chavan
 
-Here are some ideas to get you started:
+### developer.yml
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
+
+```yaml
+developer:
+  name: Aryan Chavan
+
+  role:
+    - Aspiring DevOps Engineer
+
+  current_focus:
+    - Linux
+    - Docker
+    - Cloud Computing
+    - Automation
+
+  languages:
+    - Python
+    - C
+    - Java
+    - SQL
+    - JavaScript
+
+  technologies:
+    - Git
+    - GitHub
+    - React
+    - OpenCV
+
+  currently_building:
+    - SignSpeak
+
+  learning:
+    - AWS
+    - Kubernetes
+    - Terraform
+    - CI/CD
+
+  philosophy:
+    - Build
+    - Automate
+    - Deploy
+    - Improve
+```
+
+---
+
+<div align="center">
+
+> **"Small improvements, repeated consistently, become great systems."**
+
+</div>
+
+---
