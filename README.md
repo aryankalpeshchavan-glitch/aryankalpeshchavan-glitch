@@ -37,12 +37,12 @@ Currently:
 ### GitHub Overview
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=aryankalpeshchavan-glitch&show_icons=true&hide_border=true&theme=github_dark&bg_color=00000000&title_color=67e8f9&icon_color=a78bfa&text_color=c9d1d9"/>
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=aryankalpeshchavan-glitch&theme=github-dark&hide_border=true&background=00000000&stroke=00000000&ring=a78bfa&fire=67e8f9&currStreakLabel=67e8f9"/>
+  <img width="49%" src="https://github-readme-stats-aryan-192a.vercel.app/api?username=aryankalpeshchavan-glitch&show_icons=true&hide_border=true&theme=github_dark&bg_color=00000000&title_color=67e8f9&icon_color=a78bfa&text_color=c9d1d9"/>
+  <img width="49%" src="https://streak-stats.demolab.com?user=aryankalpeshchavan-glitch&theme=github-dark&hide_border=true&background=00000000&ring=a78bfa&fire=67e8f9&currStreakLabel=67e8f9"/>
 </p>
 
 <p align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aryankalpeshchavan-glitch&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000&title_color=67e8f9&text_color=c9d1d9"/>
+  <img width="60%" src="https://github-readme-stats-aryan-192a.vercel.app/api/top-langs/?username=aryankalpeshchavan-glitch&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000&title_color=67e8f9&text_color=c9d1d9"/>
 </p>
 
 <img src="./assets/divider.svg" width="100%"/>
