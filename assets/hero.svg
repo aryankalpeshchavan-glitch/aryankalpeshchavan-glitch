@@ -1,61 +1,88 @@
 <svg width="1000" height="320" viewBox="0 0 1000 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Aryan Chavan - developer profile</title>
+  <desc>A dark developer banner with a crimson-hooded pixel-art character.</desc>
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1000" y2="320" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#0a0e14"/>
       <stop offset="100%" stop-color="#11151c"/>
     </linearGradient>
-    <radialGradient id="glowPurple" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(150 90) rotate(90) scale(180)">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    <radialGradient id="glowRed" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 110) rotate(90) scale(170)">
+      <stop offset="0%" stop-color="#ef334f" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#ef334f" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowCyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(850 230) rotate(90) scale(180)">
-      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.5"/>
+    <radialGradient id="glowCyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(850 210) rotate(90) scale(165)">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.24"/>
       <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="textGrad" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#a78bfa"/>
-      <stop offset="50%" stop-color="#67e8f9"/>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ff526b"/>
+      <stop offset="55%" stop-color="#67e8f9"/>
       <stop offset="100%" stop-color="#a78bfa"/>
     </linearGradient>
     <filter id="blurBig" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="40"/>
+      <feGaussianBlur stdDeviation="38"/>
     </filter>
   </defs>
 
   <rect width="1000" height="320" fill="url(#bgGrad)"/>
-  <rect width="1000" height="320" fill="none" stroke="#1f2733" stroke-width="1"/>
+  <rect width="1000" height="320" fill="none" stroke="#252a34" stroke-width="1"/>
 
-  <circle cx="150" cy="90" r="130" fill="url(#glowPurple)" filter="url(#blurBig)">
-    <animate attributeName="r" values="130;150;130" dur="6s" repeatCount="indefinite"/>
+  <circle cx="180" cy="110" r="125" fill="url(#glowRed)" filter="url(#blurBig)">
+    <animate attributeName="r" values="125;138;125" dur="8s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="850" cy="230" r="130" fill="url(#glowCyan)" filter="url(#blurBig)">
-    <animate attributeName="r" values="130;150;130" dur="7s" repeatCount="indefinite"/>
+  <circle cx="850" cy="210" r="120" fill="url(#glowCyan)" filter="url(#blurBig)">
+    <animate attributeName="r" values="120;132;120" dur="9s" repeatCount="indefinite"/>
   </circle>
 
   <g font-family="'Consolas','Courier New',monospace" text-anchor="middle">
-    <text x="500" y="118" font-size="15" letter-spacing="6" fill="#5b6472" opacity="0">
+    <text x="410" y="118" font-size="14" letter-spacing="5" fill="#7b8492" opacity="0">
       &lt; DEVELOPER PROFILE /&gt;
       <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.8s" fill="freeze"/>
     </text>
 
-    <text x="500" y="180" font-size="58" font-weight="700" fill="url(#textGrad)" opacity="0">
+    <text x="410" y="178" font-size="56" font-weight="700" fill="url(#textGrad)" opacity="0">
       Aryan Chavan
       <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.9s" fill="freeze"/>
     </text>
 
-    <text x="500" y="220" font-size="22" fill="#c9d1d9" opacity="0">
+    <text x="410" y="218" font-size="21" fill="#d3d8e0" opacity="0">
       Aspiring DevOps Engineer
       <animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.9s" fill="freeze"/>
     </text>
 
-    <text x="500" y="258" font-size="15" letter-spacing="1" fill="#8b96a5" opacity="0">
-      Linux &#8226; Docker &#8226; Cloud &#8226; Python &#8226; Automation
+    <text x="410" y="254" font-size="14" letter-spacing="1" fill="#98a2b3" opacity="0">
+      Python  •  Automation  •  Reliable Software
       <animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.9s" fill="freeze"/>
     </text>
   </g>
 
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="0.9s" fill="freeze"/>
-    <line x1="400" y1="278" x2="600" y2="278" stroke="url(#textGrad)" stroke-width="1.5"/>
+  <g shape-rendering="crispEdges">
+    <rect x="780" y="270" width="142" height="8" fill="#070a0e" opacity="0.75"/>
+    <rect x="822" y="70" width="48" height="8" fill="#ff526b"/>
+    <rect x="806" y="78" width="80" height="8" fill="#d93650"/>
+    <rect x="798" y="86" width="96" height="48" fill="#b4233b"/>
+    <rect x="806" y="94" width="80" height="40" fill="#e4485e"/>
+    <rect x="814" y="94" width="16" height="8" fill="#22212a"/>
+    <rect x="822" y="102" width="48" height="32" fill="#f0b8a2"/>
+    <rect x="814" y="102" width="8" height="24" fill="#22212a"/>
+    <rect x="822" y="102" width="48" height="8" fill="#342832"/>
+    <rect x="830" y="118" width="8" height="8" fill="#25232a"/>
+    <rect x="854" y="118" width="8" height="8" fill="#25232a"/>
+    <rect x="838" y="134" width="16" height="12" fill="#d99c89"/>
+    <rect x="814" y="146" width="64" height="56" fill="#c52f49"/>
+    <rect x="798" y="154" width="16" height="40" fill="#a9233d"/>
+    <rect x="878" y="154" width="16" height="40" fill="#a9233d"/>
+    <rect x="798" y="194" width="16" height="8" fill="#f0b8a2"/>
+    <rect x="878" y="194" width="16" height="8" fill="#f0b8a2"/>
+    <rect x="838" y="146" width="8" height="48" fill="#ff7183"/>
+    <rect x="822" y="202" width="24" height="40" fill="#252b36"/>
+    <rect x="854" y="202" width="24" height="40" fill="#252b36"/>
+    <rect x="814" y="242" width="32" height="12" fill="#a78bfa"/>
+    <rect x="854" y="242" width="32" height="12" fill="#67e8f9"/>
+    <rect x="782" y="110" width="8" height="8" fill="#ff526b"/>
+    <rect x="906" y="126" width="8" height="8" fill="#67e8f9"/>
+    <rect x="770" y="174" width="8" height="8" fill="#a78bfa"/>
   </g>
+
+  <line x1="326" y1="278" x2="494" y2="278" stroke="url(#textGrad)" stroke-width="1.5" opacity="0.8"/>
 </svg>

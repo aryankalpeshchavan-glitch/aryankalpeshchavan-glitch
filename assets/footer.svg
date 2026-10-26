@@ -5,11 +5,11 @@
       <stop offset="100%" stop-color="#11151c"/>
     </linearGradient>
     <radialGradient id="fglow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(500 30) rotate(90) scale(120 400)">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#ef334f" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#ef334f" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="ftextGrad" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="0%" stop-color="#ff526b"/>
       <stop offset="100%" stop-color="#67e8f9"/>
     </linearGradient>
     <filter id="fblur" x="-50%" y="-50%" width="200%" height="200%">
@@ -22,9 +22,9 @@
 
   <g font-family="'Consolas','Courier New',monospace" text-anchor="middle">
     <text x="500" y="70" font-size="24" font-weight="700" fill="url(#ftextGrad)">
-      Thanks for stopping by 👋
+      Thanks for stopping by
     </text>
-    <text x="500" y="104" font-size="14" fill="#8b96a5">
+    <text x="500" y="104" font-size="14" fill="#98a2b3">
       Let's build something reliable, automated, and scalable together.
     </text>
     <line x1="430" y1="122" x2="570" y2="122" stroke="url(#ftextGrad)" stroke-width="1.5"/>

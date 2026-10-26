@@ -1,0 +1,27 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>3D contribution calendar setup pending</title>
+  <desc>Run the profile 3D contribution workflow to replace this setup placeholder with the generated calendar.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1000" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0a0e14"/>
+      <stop offset="1" stop-color="#11151c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="302" y1="94" x2="698" y2="172" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff526b"/>
+      <stop offset=".55" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="998" height="258" rx="12" fill="url(#background)" stroke="#252a34" stroke-width="2"/>
+  <g shape-rendering="crispEdges" opacity=".9">
+    <rect x="420" y="62" width="16" height="16" fill="#238636"/>
+    <rect x="438" y="62" width="16" height="16" fill="#2ea043"/>
+    <rect x="456" y="62" width="16" height="16" fill="#39d353"/>
+    <rect x="438" y="80" width="16" height="16" fill="#39d353"/>
+    <rect x="456" y="80" width="16" height="16" fill="#26a641"/>
+    <rect x="474" y="80" width="16" height="16" fill="#238636"/>
+  </g>
+  <text x="500" y="137" fill="#e6edf3" font-family="Consolas, 'Courier New', monospace" font-size="20" font-weight="700" text-anchor="middle">Contribution calendar not generated yet</text>
+  <text x="500" y="169" fill="#98a2b3" font-family="Consolas, 'Courier New', monospace" font-size="14" text-anchor="middle">Run the 3D Contribution Calendar workflow once to replace this placeholder.</text>
+  <rect x="408" y="194" width="184" height="2" rx="1" fill="url(#accent)"/>
+</svg>

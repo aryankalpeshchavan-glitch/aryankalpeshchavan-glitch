@@ -2,9 +2,9 @@
   <defs>
     <linearGradient id="divGrad" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#0a0e14" stop-opacity="0"/>
-      <stop offset="20%" stop-color="#7c3aed"/>
-      <stop offset="50%" stop-color="#06b6d4"/>
-      <stop offset="80%" stop-color="#7c3aed"/>
+      <stop offset="24%" stop-color="#ff526b"/>
+      <stop offset="56%" stop-color="#67e8f9"/>
+      <stop offset="82%" stop-color="#a78bfa"/>
       <stop offset="100%" stop-color="#0a0e14" stop-opacity="0"/>
     </linearGradient>
   </defs>
