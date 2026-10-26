@@ -56,7 +56,7 @@ I'm **Aryan Chavan**, an aspiring **DevOps Engineer** interested in dependable a
 <p align="center">
   <img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="Green 3D contribution calendar; the initial placeholder is replaced after the workflow runs"/>
 </p>
-<p align="center"><sub>If this setup placeholder is visible, open <a href="https://github.com/aryankalpeshchavan-glitch/aryankalpeshchavan-glitch/actions/workflows/profile-3d.yml">Actions</a>, select <strong>Generate 3D Contribution Calendar</strong>, then choose <strong>Run workflow</strong>. The workflow also generates a static green SVG fallback.</sub></p>
+<p align="center"><sub>The generated SVG includes native per-day titles for dates and total GitHub contributions; tooltip display depends on the viewer. If this setup placeholder is visible, open <a href="https://github.com/aryankalpeshchavan-glitch/aryankalpeshchavan-glitch/actions/workflows/profile-3d.yml">Actions</a>, select <strong>Generate 3D Contribution Calendar</strong>, then choose <strong>Run workflow</strong>. The workflow also generates a static green SVG fallback. For exact daily activity, see the <a href="https://github.com/users/aryankalpeshchavan-glitch/contributions">native GitHub contribution graph</a>.</sub></p>
 
 <p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 

@@ -20,6 +20,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: ./profile-3d-contrib/settings.json
+
+      - name: Add daily tooltips and theme language chart
+        run: python scripts/postprocess_profile_3d.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
 
       - name: Commit generated green calendars
         run: |
